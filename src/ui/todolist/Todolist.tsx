@@ -42,7 +42,7 @@ const Todolist = ({title, tasks, filterTask, changeTask, addTask, clearTasks, fi
                 </div>
                 <input
                     type="text"
-                    placeholder={!isOpen ? 'Сначало ткрой задачи' : "What needs to be done?"}
+                    placeholder={!isOpen ? 'Сначало открой задачи' : "What needs to be done?"}
                     value={value}
                     onChange={changeValue}
                     onKeyDown={createTaskOnEnterHandler}
